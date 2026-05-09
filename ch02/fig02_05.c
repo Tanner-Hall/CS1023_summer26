@@ -14,10 +14,7 @@ int main( void )
    printf( "Enter second integer\n" ); // prompt
    scanf( "%d", &integer2 ); // read an integer
 
-   int sum; // variable in which sum will be stored
-   sum = integer1 + integer2; // assign total to sum
-
-   printf( "Sum is %d\n", sum ); // print sum
+   printf( "Sum is %d\n",  integer1 + integer2); // print sum
 } // end function main
 
 
