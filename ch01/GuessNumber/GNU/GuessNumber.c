@@ -57,10 +57,11 @@ int isCorrect(int g, int a)
 
    // guess is incorrect; display hint
    if (g < a)
-      printf( "%s", "Too low. Try again.\n? " );
+      printf( "%s", "Too low. Try again.\n" );
    else
-      printf( "%s", "Too high. Try again.\n? " );
-
+      printf( "%s", "Too high. Try again.\n " );
+   if (g-a >= 100 || g-a <= -100)
+      printf( "%s", "Your guess Isn't very close.\n");
    return 0;
 } // end function isCorrect
 
